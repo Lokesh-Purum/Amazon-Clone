@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns and Orders</title>
+    <link rel="stylesheet" href="ReturnAndOrders.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="#">Your Account</a> &gt; <a href="#">Your Orders</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search all orders">
+                <button>Search Orders</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tablist">
+            <button>Orders</button>
+            <button>Buy Again</button>
+            <button>Not Yet Shipped</button>
+            <button>Cancelled Orders</button>
+        </div>
+
+        <div class="order-filters">
+            <label for="order-count">Number of orders placed:</label>
+            <select id="order-count">
+                <option>Last 30 days</option>
+                <option>Last 3 months</option>
+                <option>Last year</option>
+                <option>2023</option>
+                <option>2022</option>
+            </select>
+        </div>
+
+        <div class="no-orders">
+            <p>Looks like you haven't placed an order in the last 3 months. <a href="#">View orders in 2024</a></p>
+        </div>
+
+        <section class="recommended-products">
+            <h2>Recommended Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="/Images/recommended1.jpg" alt="Recommended Product 1">
+                    <p>
+                        Colgate Strong Teeth, 700g, India's No: 1 Toothpaste Brand,<br>
+                        Calcium-boost Tooth Paste for 2X Stronger Teeth,<br>
+                        Whitens Teeth, Fresh Breath & Prevents Cavities (Combo Pack Offer)
+                        </p>
+                        
+                    <p>₹342.00</p>
+                </div>
+                <div class="product">
+                    <img src="/Images/recommended2.jpg" alt="Recommended Product 2">
+                    <p>Tata Salt, 1kg</p>
+                    <p>₹24.99</p>
+                </div>
+                <div class="product">
+                    <img src="/Images/recommended3.jpg" alt="Recommended Product 3">
+                    <p>Lipton Brooke Bond Red Label Tea Leaf Carton, Ginger, 500 Grams</p>
+                    <p>₹250.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>

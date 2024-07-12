@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232F3E;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    justify-content: center;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.tablist {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.tablist button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.order-filters {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.order-filters label {
+    margin-right: 10px;
+}
+
+.order-filters select {
+    padding: 5px;
+}
+
+.no-orders {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.no-orders a {
+    color: #0073bb;
+    text-decoration: none;
+}
+
+.recommended-products {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    margin: 10px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #232F3E;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

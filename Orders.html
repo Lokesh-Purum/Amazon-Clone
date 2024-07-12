@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Orders</title>
+    <link rel="stylesheet" href="Orders.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo">
+            <input type="text" class="search-bar" placeholder="Search">
+        </div>
+    </header>
+    <nav class="breadcrumb">
+        <span>Your Account</span> > <span>Your Orders</span>
+    </nav>
+    <section class="orders-section">
+        <h2>Your Orders</h2>
+        <div class="tab-list">
+            <button class="tab-button active" onclick="showTab('orders')">Orders</button>
+            <button class="tab-button" onclick="showTab('buy-again')">Buy Again</button>
+            <button class="tab-button" onclick="showTab('not-yet-shipped')">Not Yet Shipped</button>
+            <button class="tab-button" onclick="showTab('cancelled-orders')">Cancelled Orders</button>
+        </div>
+        <div id="orders" class="tab-content active">
+            <span>Number of Orders Placed: 5</span>
+            <div class="dropdown">
+                <button class="dropbtn">Order Details</button>
+                <div class="dropdown-content">
+                    <img src="https://via.placeholder.com/150" alt="Product 1">
+                    <img src="https://via.placeholder.com/150" alt="Product 2">
+                    <img src="https://via.placeholder.com/150" alt="Product 3">
+                </div>
+            </div>
+        </div>
+        <div id="buy-again" class="tab-content">
+            <img src="https://via.placeholder.com/150" alt="Product 4">
+            <img src="https://via.placeholder.com/150" alt="Product 5">
+        </div>
+        <div id="not-yet-shipped" class="tab-content">
+            <img src="https://via.placeholder.com/150" alt="Product 6">
+            <img src="https://via.placeholder.com/150" alt="Product 7">
+        </div>
+        <div id="cancelled-orders" class="tab-content">
+            <img src="https://via.placeholder.com/150" alt="Product 8">
+        </div>
+    </section>
+    <script src="Orders.js"></script>
+</body>
+</html>

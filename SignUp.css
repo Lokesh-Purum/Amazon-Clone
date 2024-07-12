@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    margin-bottom: 20px;
+}
+
+.signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-section {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="email"],
+.input-section input[type="password"],
+.input-section select,
+.input-section input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-section select {
+    width: calc(100% - 18px);
+}
+
+.signup-btn {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #e68a00;
+}
+
+.legal-text {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.legal-text a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.legal-text a:hover {
+    text-decoration: underline;
+}
